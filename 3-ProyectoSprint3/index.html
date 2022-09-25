@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="nav1">
+            <div class="izquierda">
+                <div class="direction">1441 Market St, San Fransisco</div>
+                <span></span>
+                <div class="number">(123) 456-7890</div>
+                <div class="horario">Mon - Sun: 8:00am - 6:00pm</div>
+            </div>
+            <div class="derecha">
+                <div class="login">LOGIN/REGISTER</div>
+            </div>
+        </nav>
+        <nav class="nav2">
+            <div class="izquierda2">
+               
+                    <img src="https://www.fantasythemes.net/templates/casaroyal/assets/images/logo.png" alt="" class="logo1">
+                
+                <div class="homepage" onclick="location.href='/trabajospring3/index.html'">HOMEPAGE</div>
+                <div class="properties">PROPERTIES</div>
+                <div class="agencies">AGENCIES</div>
+                <div class="pages">PAGES</div>
+                <div class="about">ABOUT</div>
+                <div class="contact">CONTACT</div>
+            </div>
+            <div class="derecha2">
+                <div class="compare">COMPARE</div>
+                <div class="favorite" onclick="location.href='./favoritos/favoritos.html'">
+                    <img src="https://img.icons8.com/ios/50/000000/like--v1.png"/>
+                </div>
+                <div class="submit">SUBMIT LISTING</div>
+            </div>           
+        </nav>
+    </header>
+    <main>
+        <section class="top">
+            <div class="op">
+                <div class="top-izquierda">
+                    <div class="letra1">Let Us Guide You Home</div>
+                    <div class="letra2">Find the house of your dreams</div>
+                </div>
+                <div class="top-derecha">
+                    <nav class="opciones">
+                        <select class="type">
+                            <option disabled selected>Lugar</option>
+                            <option value="Kobenhavn">Kobenhavn</option>
+                            <option value="Esbjerg">Esbjerg</option>
+                            <option value="Aalborg">Aalborg</option>
+                            <option value="Aarhus">Aarhus</option>
+                        </select>                        
+                        <select class="select">
+                            <option disabled selected>Tipo de inmueble</option>
+                            <option value="Aalborg">Apartment</option>
+                            <option value="Aarhus">house</option>
+                            <option value="Aalborg">finca</option>
+                        </select>
+                        <input type="text" placeholder="Busca Tu Inmueble" id="search">                       
+                        <div class="favs" onclick="location.href='./favoritos/favoritos.html'">
+                            <img src="https://img.icons8.com/ios/50/000000/like--v1.png" class="favori">
+                        </div>
+                        <button id="btnSearch"><p class="findp">Find Properties</p></button>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <article class="middle">
+            <div class="middle-top">
+                <div class="letra3">CASAROYAL REAL ESTATE AGENCY</div>
+                <div class="letra4"><strong>Featured</strong> Properties</div>
+            </div>
+        </article>
+        <section id="container__cards">
+            <article class="card">
+                <figure>
+                    <img src="https://cdn.pixabay.com/photo/2020/04/13/17/16/netherlands-5039356__340.jpg" alt="imagen" class="card__img">
+                </figure>
+                <div class="cardtop1">
+                    <div class="house">Apartment</div>
+                    <div class="rent">rent</div>
+                    <div class="fav" name="1">🤍</div>
+                </div>                  
+                <div class="price">1000US</div>
+                <div class="lugar">Kobenhavn</div>
+                <div class="directopn1">Jyllingevej 66</div>
+                <div class="cardmiddle">
+                    <div class="contactt">Contact the admin of this page</div>
+                    <div class="parquing">no</div>
+                </div>                    
+                <div class="cardbottom">
+                    <div class="area"><strong>77 m2</strong> </div>
+                    <div class="rooms">🛏 3</div>
+                </div> 
+            </article>
+            <article class="card">
+                <figure>
+                    <img src="https://cdn.pixabay.com/photo/2013/10/09/02/27/lake-192990__340.jpg" alt="imagen" class="card__img">
+                </figure>
+                <div class="cardtop1">
+                    <div class="house">Apartment</div>
+                    <div class="rent">rent</div>
+                    <div class="fav" name="2">🤍</div>
+                </div>                  
+                <div class="price">1001 US</div>
+                <div class="lugar">Kobenhavn</div>
+                <div class="directopn1">Studiebolig i København udlejes</div>
+                <div class="cardmiddle">
+                    <div class="contactt">Contact the admin of this page</div>
+                    <div class="parquing">yes</div>
+                </div>                    
+                <div class="cardbottom">
+                    <div class="area"><strong>55 m2</strong> </div>
+                    <div class="rooms">🛏 2</div>
+                </div> 
+            </article>
+            <article class="card">
+                <figure>
+                    <img src="https://cdn.pixabay.com/photo/2016/08/11/23/48/mountains-1587287__340.jpg" alt="imagen" class="card__img">
+                </figure>
+                <div class="cardtop1">
+                    <div class="house">house</div>
+                    <div class="rent">for sale</div>
+                    <div class="fav" name="3">🤍</div>
+                </div>                  
+                <div class="price">30000 US</div>
+                <div class="lugar">Kobenhavn</div>
+                <div class="directopn1">1 bedroom student apartment</div>
+                <div class="cardmiddle">
+                    <div class="contactt">Contact the admin of this page</div>
+                    <div class="parquing">yes</div>
+                </div>                    
+                <div class="cardbottom">
+                    <div class="area"><strong>77 m2</strong> </div>
+                    <div class="rooms">🛏 1</div>
+                </div> 
+            </article>
+            <article class="card">
+                <figure>
+                    <img src="https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041__340.jpg" alt="imagen" class="card__img">
+                </figure>
+                <div class="cardtop1">
+                    <div class="house">house</div>
+                    <div class="rent">rent</div>
+                    <div class="fav" name="4">🤍</div>
+                </div>                  
+                <div class="price">800 US</div>
+                <div class="lugar">Kobenhavn</div>
+                <div class="directopn1">København, Frederiksberg st.3-40</div>
+                <div class="cardmiddle">
+                    <div class="contactt">Contact the admin of this page</div>
+                    <div class="parquing">no</div>
+                </div>                    
+                <div class="cardbottom">
+                    <div class="area"><strong>30 m2</strong> </div>
+                    <div class="rooms">🛏 1</div>
+                </div> 
+            </article>
+            <article class="card">
+                <figure>
+                    <img src="https://cdn.pixabay.com/photo/2016/11/18/17/46/house-1836070__340.jpg" alt="imagen" class="card__img">
+                </figure>
+                <div class="cardtop1">
+                    <div class="house">Apartment</div>
+                    <div class="rent">rent</div>
+                    <div class="fav" name="5">🤍</div>
+                </div>                  
+                <div class="price">2000 US</div>
+                <div class="lugar">Kobenhavn</div>
+                <div class="directopn1">København, student apartment</div>
+                <div class="cardmiddle">
+                    <div class="contactt">Contact the admin of this page</div>
+                    <div class="parquing">no</div>
+                </div>                    
+                <div class="cardbottom">
+                    <div class="area"><strong>57 m2</strong> </div>
+                    <div class="rooms">🛏 2</div>
+                </div> 
+            </article>
+            <article class="card">
+                <figure>
+                    <img src="https://cdn.pixabay.com/photo/2016/11/18/17/20/living-room-1835923__340.jpg" alt="imagen" class="card__img">
+                </figure>
+                <div class="cardtop1">
+                    <div class="house">house</div>
+                    <div class="rent">for sale</div>
+                    <div class="fav" name="6">🤍</div>
+                </div>                  
+                <div class="price">87000 US</div>
+                <div class="lugar">Esbjerg</div>
+                <div class="directopn1">Marsvej 45B, 6800 Varde</div>
+                <div class="cardmiddle">
+                    <div class="contactt">Contact the admin of this page</div>
+                    <div class="parquing">yes</div>
+                </div>                    
+                <div class="cardbottom">
+                    <div class="area"><strong>105 m2</strong> </div>
+                    <div class="rooms">🛏 4</div>
+                </div> 
+            </article>
+            <div class="allproperties">
+                <div class="allproperties1">All properties</div>
+            </div>
+        </section>
+        
+    </main>
+    <footer>
+
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="14.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="nav1">
+            <div class="izquierda">
+                <div class="direction">1441 Market St, San Fransisco</div>
+                <span></span>
+                <div class="number">(123) 456-7890</div>
+                <div class="horario">Mon - Sun: 8:00am - 6:00pm</div>
+            </div>
+            <div class="derecha">
+                <div class="login">LOGIN/REGISTER</div>
+            </div>
+        </nav>
+        <nav class="nav2">
+            <div class="izquierda2">
+               
+                    <img src="https://www.fantasythemes.net/templates/casaroyal/assets/images/logo.png" alt="" class="logo1">
+                
+                <div class="homepage" onclick="location.href='/trabajospring3/index.html'">HOMEPAGE</div>
+                <div class="properties">PROPERTIES</div>
+                <div class="agencies">AGENCIES</div>
+                <div class="pages">PAGES</div>
+                <div class="about">ABOUT</div>
+                <div class="contact">CONTACT</div>
+            </div>
+            <div class="derecha2">
+                <div class="compare">COMPARE</div>
+                <div class="favorite" onclick="location.href='../favoritos/favoritos.html'">
+                    <img src="https://img.icons8.com/ios/50/000000/like--v1.png"/>
+                </div>
+                <div class="submit">SUBMIT LISTING</div>
+            </div>           
+        </nav>
+    </header>
+    <main>
+        <section class="top">
+            <div class="op">
+                <div class="top-izquierda">
+                    <div class="letra1">Let Us Guide You Home</div>
+                    <div class="letra2">Find the house of your dreams</div>
+                </div>
+                <div class="top-derecha">
+                    <nav class="opciones">
+                        <select class="type">
+                            <option disabled selected>Lugar</option>
+                            <option value="Kobenhavn">Kobenhavn</option>
+                            <option value="Esbjerg">Esbjerg</option>
+                            <option value="Aalborg">Aalborg</option>
+                            <option value="Aarhus">Aarhus</option>
+                        </select>                        
+                        <select class="select">
+                            <option disabled selected>Tipo de inmueble</option>
+                            <option value="Aalborg">Apartment</option>
+                            <option value="Aarhus">house</option>
+                            <option value="Aalborg">finca</option>
+                        </select>
+                        <input type="text" placeholder="Busca Tu Inmueble" id="search">                       
+                        <div class="favs" onclick="location.href='../favoritos/favoritos.html'">
+                            <img src="https://img.icons8.com/ios/50/000000/like--v1.png" class="favori">
+                        </div>
+                        <button id="btnSearch"><p class="findp">Find Properties</p></button>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <article class="middle">
+            <div class="middle-top">
+                <div class="letra3">CASAROYAL REAL ESTATE AGENCY</div>
+                <div class="letra4"><strong>Featured</strong> Properties</div>
+            </div>
+        </article>
+        <section id="container__cards">
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+<script src="/trabajospring3/inmuebles/14.js"></script>
+</body>
+</html>
